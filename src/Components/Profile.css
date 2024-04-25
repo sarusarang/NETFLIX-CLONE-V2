@@ -1,0 +1,437 @@
+/* PROFILE */
+
+.profile-main {
+
+    width: 100%;
+    height: 100vh;
+    background-color: #141414;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.profile h1 {
+
+    font-size: 3.5vw;
+    font-weight: unset;
+    color: #fff;
+    text-align: center;
+}
+
+.profile-user {
+
+    width: 18%;
+}
+
+.profile-user h4 {
+
+    color: grey;
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 5%;
+    font-family: sans-serif;
+
+}
+
+.profile-user img {
+
+    border-radius: 5px;
+}
+
+.profile-user img:hover {
+
+    border: 4px solid #e5e5e5;
+
+}
+
+.profile-user:hover .tt {
+
+    color: #e5e5e5;
+}
+
+.plus {
+
+    font-size: larger;
+    width: 100%;
+    height: 64%;
+
+}
+
+
+.profile-user:hover .plus {
+
+    background-color: #e5e5e5;
+}
+
+.btn-trash {
+
+    background-color: transparent;
+    color: red;
+    border: none;
+
+}
+
+/* ADD PROFILES */
+
+.example-style h1 {
+
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: start;
+    color: #fff;
+}
+
+.example-style p {
+
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #666;
+}
+
+.add-profile {
+
+    padding: 2rem 0rem 2rem 0rem;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+
+.profile-add-img {
+
+    width: 30%;
+}
+
+.add-input input {
+
+    background-color: #666;
+    border: none;
+    padding: 3%;
+    border-radius: 2px;
+    width: 100%;
+    font-size: medium;
+    color: #fff;
+}
+
+.add-input input::placeholder {
+
+    color: #fff;
+}
+
+.btn-continue {
+
+    color: #000;
+    background-color: #fff;
+    border: none;
+    margin-right: 2%;
+    font-weight: 500;
+    padding: 0.4rem 2rem 0.4rem 2rem;
+    font-size: 18px;
+    border-radius: 2px;
+
+}
+
+.btn-continue:hover {
+    background-color: #c00;
+    color: #fff;
+}
+
+.btn-cancle {
+
+    color: grey;
+    background-color: transparent;
+    border: 1px solid grey;
+    margin-right: 2%;
+    font-weight: 500;
+    padding: 0.4rem 2rem 0.4rem 2rem;
+    font-size: 18px;
+    border-radius: 2px;
+
+}
+
+.btn-cancle:hover {
+
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.profile-animation {
+    animation: fade-in 1.5s;}
+
+@keyframes fade-in {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+
+        opacity: 100;
+    }
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 481px) {
+
+
+
+    /* PROFILE */
+
+    .profile-main {
+
+        padding-top: 50%;
+        padding-bottom: 50%;
+    }
+
+    .profile h1 {
+
+        font-size: 9.5vw;
+        font-weight: unset;
+    }
+
+    .profile-margin {
+
+        margin-top: 1rem !important;
+
+    }
+
+    .plus {
+
+        width: 100%;
+        height: 58%;
+    }
+
+
+    .profile-user h4 {
+
+
+        font-weight: 500;
+        font-size: smaller;
+        margin-bottom: 0px !important;
+
+
+    }
+
+
+    /* ADD-PROFILES */
+
+    .example-style p {
+
+        font-size: 3.9vw;
+        font-weight: 400;
+
+    }
+
+    .example-style h1 {
+
+        font-size: 9vw;
+        font-weight: 400;
+
+    }
+
+    .example-style {
+
+        margin-top: -10%;
+        margin-bottom: -10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .profile-user {
+
+        width: 18%;
+    }
+    
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+
+    /* PROFILE */
+
+    .profile-main {
+
+        padding-top: 35%;
+        padding-bottom: 35%;
+    }
+
+    .profile h1 {
+
+        font-size: 6.5vw;
+        font-weight: unset;
+    }
+
+    .profile-margin {
+
+        margin-top: 1rem !important;
+
+    }
+
+    .plus {
+
+
+        width: 100%;
+        height: 58%;
+
+    }
+
+
+    /* ADD-PROFILES */
+
+    .example-style p {
+
+        font-size: 2.9vw;
+        font-weight: 400;
+
+    }
+
+    .example-style h1 {
+
+        font-size: 6vw;
+        font-weight: 400;
+
+    }
+
+    .example-style {
+
+        margin-top: -10%;
+        margin-bottom: -10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+
+    /* PROFILE */
+
+    .profile-main {
+
+        padding-top: 35%;
+        padding-bottom: 35%;
+    }
+
+    .profile h1 {
+
+        font-size: 6.5vw;
+        font-weight: unset;
+    }
+
+    .profile-margin {
+
+        margin-top: 1rem !important;
+
+    }
+
+    .plus {
+
+
+        width: 100%;
+        height: 58%;
+
+    }
+
+
+    /* ADD-PROFILES */
+
+    .example-style p {
+
+        font-size: 2.9vw;
+        font-weight: 400;
+
+    }
+
+    .example-style h1 {
+
+        font-size: 6vw;
+        font-weight: 400;
+
+    }
+
+    .example-style {
+
+        margin-top: -10%;
+        margin-bottom: -10%;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    /* PROFILE */
+
+    .profile-main {
+
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .profile h1 {
+
+        font-size: 4.5vw;
+        font-weight: unset;
+    }
+
+    .profile-margin {
+
+        margin-top: 1rem !important;
+
+    }
+
+    /* ADD-PROFILES */
+
+    .example-style p {
+
+        font-size: 2.2vw;
+        font-weight: 400;
+
+    }
+
+    .example-style h1 {
+
+        font-size: 5vw;
+        font-weight: 400;
+
+    }
+
+
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1180px) {
+
+    /* PROFILE */
+
+    .profile-main {
+
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .profile h1 {
+
+        font-size: 4.5vw;
+        font-weight: unset;
+    }
+
+    .profile-margin {
+
+        margin-top: 1rem !important;
+
+    }
+
+    /* ADD-PROFILES */
+
+    .example-style p {
+
+        font-size: 1.7vw;
+        font-weight: 400;
+
+    }
+
+
+}

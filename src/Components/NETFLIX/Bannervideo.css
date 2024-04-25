@@ -1,0 +1,153 @@
+.banner {
+
+    position: relative;
+}
+
+/* BANNER TEXT AND IMG */
+.banner-text {
+
+    position: absolute;
+    bottom: 13rem;
+    left: 4rem;
+
+}
+
+.banner-text button {
+
+    color: #000;
+    margin-top: 3%;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: none;
+    outline: none;
+    font-size: large;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+
+.banner-text button:hover {
+
+    background-color: #ece9e9;
+}
+
+.banner-text-img {
+
+    width: 70%;
+}
+
+.muted {
+
+    position: absolute;
+    bottom: 23rem;
+    top: 23rem;
+    right: 0rem;
+    width: 14%;
+
+}
+
+.muted button {
+
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 22px;
+    outline: none;
+    color: #fff;
+    padding: 1% 2% 1% 2%;
+    font-size: x-large;
+
+}
+
+.rating {
+
+    background-color: #0b0b0b5e;
+    border-left: 3px solid #fff;
+
+
+}
+
+.rating p {
+
+    color: #fff;
+    margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 0.5rem 5rem 0.5rem 1rem;
+
+}
+
+/* RESPONSIVE */
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* BANNER TEXT AND IMG */
+    .banner-text {
+
+        bottom: 20rem;
+        left: 2rem;
+
+    }
+
+    .banner-text-img {
+
+        width: 50%;
+    }
+
+    .muted {
+
+        position: absolute;
+        bottom: 16rem !important;
+        top: 16rem !important;
+        right: 1rem !important;
+        width: 20%;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 991px) and (max-width: 1180px) {
+
+
+    /* BANNER TEXT AND IMG */
+    .banner-text {
+
+        bottom: 15rem;
+        left: 2rem;
+
+    }
+
+    .banner-text-img {
+
+        width: 55%;
+    }
+
+    .muted {
+
+        position: absolute;
+        bottom: 23rem;
+        top: 23rem;
+        right: 0rem;
+        width: 21%;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 1180px) and (max-width: 1400px) {
+
+
+    .muted {
+
+        position: absolute;
+        bottom: 23rem;
+        top: 23rem;
+        right: 0rem;
+        width: 17%;
+
+    }
+
+
+
+}

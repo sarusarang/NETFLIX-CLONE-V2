@@ -1,0 +1,130 @@
+.navbar {
+
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.finish-logo {
+
+    width: 12%;
+}
+
+.finish-bar {
+
+    padding: 1rem 4rem 1rem 3rem;
+
+}
+
+.finish-button {
+
+    display: flex;
+    align-items: center;
+}
+
+.finish-button a {
+
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.finish-button a:hover {
+
+    text-decoration: underline;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 481px) {
+
+    /* NAVBAR */
+
+    .finish-logo {
+
+        width: 20%;
+    }
+
+    .finish-bar {
+
+        padding: 0rem 1rem 0rem 1rem;
+
+    }
+
+    .finish-button a {
+
+        font-weight: 600;
+        font-size: 14px;
+
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+
+    /* NAVBAR */
+
+    .finish-logo {
+
+        width: 16%;
+    }
+
+    .finish-bar {
+
+        padding: 1rem 1rem 1rem 1rem;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    /* NAVBAR */
+
+    .finish-logo {
+
+        width: 16%;
+    }
+
+    .finish-bar {
+
+        padding: 1rem 2rem 1rem 2rem;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    /* NAVBAR */
+
+    .finish-logo {
+
+        width: 16%;
+    }
+
+    .finish-bar {
+
+        padding: 1rem 2rem 1rem 2rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1180px) {
+
+
+    /* NAVBAR */
+
+    .finish-logo {
+
+        width: 15%;
+    }
+
+}

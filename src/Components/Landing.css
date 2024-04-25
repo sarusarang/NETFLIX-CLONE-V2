@@ -1,0 +1,2009 @@
+/* HERO-1 */
+
+.hero-1 {
+
+    background-image: url('/BG-IMG-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero-bg {
+    background-image: linear-gradient(to top, rgb(0 0 0 / 86%) 0, rgb(0 0 0 / 48%) 60%, rgb(0 0 0 / 86%) 100%);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 12%;
+    border-bottom: 8px solid #292929;
+}
+
+.logo {
+
+    width: 12%;
+
+}
+
+.Lang select {
+
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.Lang option {
+
+    color: #000;
+    width: 100%;
+
+}
+
+.Lang {
+
+    border: 1px solid #818181;
+    margin-right: 1rem;
+    background-color: #00000057;
+    border-radius: 8px;
+}
+
+.signin-btn button{
+
+    background-color: red;
+    color: #fff;
+    border-radius: 6px;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    font-weight: bold;
+    font-size: smaller;
+    font-family: sans-serif;
+}
+
+nav {
+
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+/* HERO-1-TEXT */
+
+.hero-text {
+
+    margin-top: 13%;
+}
+
+
+.hero-text h1 {
+
+    font-weight: 900;
+    font-size: 3rem;
+
+}
+
+.hero-text p {
+
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.enter-email {
+    width: 50%;
+}
+
+
+.enter-email input {
+
+    background-color: #181818a1;
+    ;
+    border: 1px solid #847878;
+    border-radius: 6px;
+    width: 50%;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+::placeholder {
+    color: #c0c0c0;
+}
+
+form {
+    display: contents;
+}
+
+.enter-email button {
+
+    color: #fff;
+    background-color: rgb(193, 17, 25);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 4px;
+    width: 30%;
+
+}
+
+.break {
+
+    display: none;
+}
+
+
+/* HERO-2 */
+
+.hero-2 {
+
+    border-bottom: 8px solid #292929;
+}
+
+.hero2-text {
+
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.hero2-text h2 {
+
+    color: #fff;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.hero2-text p {
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero2-container {
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.tv-img {
+
+    width: 90%;
+    position: relative;
+    z-index: 1000;
+}
+
+.tv-video {
+
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 74%;
+    max-height: 64%;
+}
+
+
+/* HERO-3 */
+
+.hero-3 {
+
+    border-bottom: 8px solid #292929;
+
+}
+
+.hero3-img {
+
+    position: relative;
+
+
+}
+
+.hero3-video {
+
+    position: absolute;
+    left: 22%;
+    bottom: 16%;
+    background-color: #000;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    border-radius: 18px;
+
+
+}
+
+.hero3-banner img {
+
+    height: 5rem;
+}
+
+.hero3-download img {
+
+    height: 3.75rem;
+    margin: auto;
+
+}
+
+.hero3-banner-text span {
+    color: #2408f1;
+}
+
+.text-stranger {
+
+    font-weight: 500;
+    color: #fff;
+}
+
+.hero3-text h2 {
+
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hero-3 p {
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero3-text {
+
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+
+.display1-hero3 {
+
+    display: none;
+
+}
+
+
+/* HERO-4 */
+
+.hero-4 {
+
+    border-bottom: 8px solid #292929;
+}
+
+.hero4-text {
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.hero4-text h2 {
+
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.hero4-text p {
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.hero4-banner {
+
+    position: relative;
+    z-index: 1000;
+}
+
+.hero4-video {
+
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 61%;
+    max-height: 53%;
+    position: absolute;
+    top: 7%;
+    left: 18%;
+
+}
+
+.Hero4-row {
+
+    padding: 5rem;
+
+}
+
+/* HERO-5 */
+
+.hero-5 {
+
+    background-color: #000;
+    border-bottom: 8px solid #292929;
+
+}
+
+.hero5-row {
+
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.hero5-text {
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.hero5-text h2 {
+
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.hero5-text p {
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero5-display1 {
+
+    display: none;
+
+}
+
+
+
+/* HERO-6 */
+
+.hero-6 {
+
+    background-color: #000;
+    border-bottom: 8px solid #292929;
+    padding: 4% 11% 4% 11%;
+
+}
+
+.hero6-collapse h2 {
+
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.item-collapse ul {
+
+    list-style-type: none;
+    padding: 0px !important;
+
+}
+
+.Collapsible:hover {
+
+    background-color: #454444;
+
+}
+
+.Collapsible {
+
+    background-color: #272727;
+    transition: background ease-in-out 0.2s;
+
+}
+
+.Collapsible span {
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2%;
+}
+
+.Collapsible__trigger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Collapsible__trigger.is-open svg {
+
+    transform: rotate(45deg);
+}
+
+
+.Collapsible__contentInner {
+
+    color: #fff;
+    padding: 3%;
+    border-top: 2px solid #000;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.collapse-email {
+
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+
+}
+
+.collapse-email h3 {
+
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.collapse-input {
+
+    width: 65%;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+
+.collapse-input input {
+
+    background-color: #181818a1;
+    ;
+    border: 1px solid #847878;
+    border-radius: 6px;
+    width: 100%;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.collapse-input button {
+
+    color: #fff;
+    background-color: rgb(193, 17, 25);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 4px;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+
+.footer{
+
+    background-color: #000;
+
+
+}
+
+.foot-link ul{
+
+    list-style: none;
+    padding: 0px !important;
+}
+
+.foot-link li{
+
+    margin-bottom: 4%;
+}
+
+.foot-link li p{
+
+    color: #fff;
+}
+
+.foot-link a{
+
+    color: rgba(255,255,255,0.7);
+}
+
+.foot-link a:focus{
+
+    color: red;
+}
+
+.foot-container{
+
+    padding: 5%;
+}
+
+.foot-link ul select{
+
+    background-color: #26252552;
+    color: #fff;
+    padding: 1% 2% 1% 2%;
+    margin-bottom: 6%;
+    margin-top: 4%;
+}
+
+.foot-p{
+
+    color: rgba(255,255,255,0.7);
+}
+
+.foot-p a{
+
+    color: rgba(255,255,255,0.7);
+}
+
+/* RESPONSIVE FOR DEVICES */
+
+
+@media only screen and (max-width: 481px) {
+
+
+    /* HERO-1 */
+
+    nav {
+
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .logo {
+
+        width: 25%;
+
+    }
+
+
+    .Lang {
+
+        padding: 0px !important;
+    }
+
+    .Lang select {
+
+        font-size: small;
+    }
+
+    .lang-logo{
+
+        font-size: small !important;
+    }
+
+    .signin-btn button {
+
+        width: 3rem;
+        font-size: x-small;
+    }
+
+    .break {
+
+        display: none;
+    }
+
+
+    .hero-text h1 {
+
+        font-weight: 800;
+        font-size: 1.9rem;
+
+    }
+
+    .hero-text p {
+
+        font-size: 1rem;
+        font-weight: 600;
+
+    }
+
+
+    .enter-email {
+
+        width: 100%;
+        display: block !important;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    .enter-email input {
+
+        width: 100%;
+
+    }
+
+    .enter-email button {
+
+        width: 55%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+        font-size: medium;
+    }
+
+    .hero-text {
+
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+    /* HERO-2 */
+
+
+    .hero2-container {
+
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    .hero2-text {
+
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .tv-img {
+
+        width: 100%;
+    }
+
+    .break2 {
+
+        display: none;
+    }
+
+    .hero2-text h2 {
+
+        font-weight: 900;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 3% !important;
+
+    }
+
+    .hero2-text p {
+
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 500;
+
+    }
+
+
+
+    /* HERO-3 */
+
+
+    .hero3-video {
+
+        left: 16%;
+        bottom: 15%;
+    }
+
+    .hero3-banner img {
+
+        height: 3rem;
+    }
+
+    .hero3-download img {
+
+        height: 3.75rem;
+        margin: auto;
+
+    }
+
+    .hero3-banner-text span {
+        font-size: 0.75rem;
+    }
+
+    .text-stranger {
+
+        font-weight: 500;
+        font-size: 0.70rem;
+    }
+
+    .hero3-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hero-3 p {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .banner-img {
+
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .display1-hero3 {
+
+        display: block;
+    }
+
+    .display2-hero3 {
+
+        display: none;
+    }
+
+    .hero3-text {
+
+        padding: 0px !important;
+        text-align: center;
+    }
+
+
+    /* HERO-4 */
+
+    .hero4-text {
+
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .hero4-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .hero4-text p {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+
+    .Hero4-row {
+
+        padding: 0rem 1rem 3rem 1rem;
+
+    }
+
+
+    /* HERO-5 */
+
+    .hero-5 {
+
+        background-color: #000;
+        border-bottom: 8px solid #292929;
+
+    }
+
+    .hero5-row {
+
+        padding: 8% 3% 8% 3%;
+    }
+
+    .hero5-text {
+
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .hero5-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .hero5-text p {
+
+
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+
+    .hero5-display1 {
+
+        display: block;
+
+    }
+
+    .hero5-display2 {
+
+        display: none;
+
+    }
+
+    .hero5-banner {
+
+        padding-left: 8%;
+        padding-right: 8%;
+
+    }
+
+
+
+    /* Hero-6 */
+
+
+    .hero-6 {
+
+        padding: 8% 5% 8% 5%;
+
+    }
+
+    .collapse-input {
+
+        width: 68%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .hero6-collapse h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .Collapsible span {
+
+        font-size: 1.05rem;
+        font-weight: 500;
+        padding: 1.2rem;
+    }
+
+
+    .collapse-email h3 {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+
+    .collapse-input button {
+
+        font-size: 1.5rem;
+        font-weight: 600;
+        width: 75%;
+        padding: 0.50rem;
+        margin-top: 2%;
+    }
+
+    .collapse-input {
+
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .Collapsible__contentInner {
+        padding: 3%;
+        font-size: 1.025rem;
+        font-weight: 500;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+    /* HERO-1 */
+
+    nav {
+
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .logo {
+
+        width: 17%;
+
+    }
+
+    .Lang {
+
+        padding: 0px !important;
+    }
+
+    .Lang select {
+
+        font-size: smaller;
+    }
+
+    .signin-btn button {
+
+        width: 4rem;
+    }
+
+
+
+
+    .hero-text h1 {
+
+        font-weight: 700;
+        font-size: 1.9rem;
+
+    }
+
+    .hero-text p {
+
+        font-size: 1.1rem;
+        font-weight: 400;
+
+    }
+
+
+    .enter-email {
+
+        width: 100%;
+
+    }
+
+    .enter-email input {
+
+        width: 60%;
+
+    }
+
+    .enter-email button {
+
+        width: 40%;
+    }
+
+
+    /* HERO-2 */
+
+
+    .hero2-container {
+
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    .hero2-text {
+
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .tv-img {
+
+        width: 100%;
+    }
+
+    .break2 {
+
+        display: none;
+    }
+
+    .hero2-text h2 {
+
+        font-weight: 900;
+        font-size: 2.2rem;
+        text-align: center;
+        margin-bottom: 3% !important;
+
+    }
+
+    .hero2-text p {
+
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+
+    }
+
+
+    /* HERO-3 */
+
+
+    .hero3-video {
+
+        left: 21%;
+        bottom: 20%;
+    }
+
+    .hero3-banner img {
+
+        height: 3rem;
+    }
+
+    .hero3-download img {
+
+        height: 3.75rem;
+        margin: auto;
+
+    }
+
+    .hero3-banner-text span {
+        font-size: 0.75rem;
+    }
+
+    .text-stranger {
+
+        font-weight: 500;
+        font-size: 0.875rem;
+    }
+
+    .hero3-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hero-3 p {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .banner-img {
+
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .display1-hero3 {
+
+        display: block;
+    }
+
+    .display2-hero3 {
+
+        display: none;
+    }
+
+    .hero3-text {
+
+        padding: 0px !important;
+        text-align: center;
+    }
+
+
+    /* HERO-4 */
+
+    .hero4-text {
+
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .hero4-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .hero4-text p {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+
+    .Hero4-row {
+
+        padding: 0rem 2rem 3rem 2rem;
+
+    }
+
+
+    /* HERO-5 */
+
+    .hero-5 {
+
+        background-color: #000;
+        border-bottom: 8px solid #292929;
+
+    }
+
+    .hero5-row {
+
+        padding: 5% 2% 5% 2%;
+    }
+
+    .hero5-text {
+
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .hero5-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .hero5-text p {
+
+
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+
+    .hero5-display1 {
+
+        display: block;
+
+    }
+
+    .hero5-display2 {
+
+        display: none;
+
+    }
+
+    .hero5-banner {
+
+        padding-left: 8%;
+        padding-right: 8%;
+
+    }
+
+
+
+    /* Hero-6 */
+
+
+    .hero-6 {
+
+        padding: 8% 5% 8% 5%;
+
+    }
+
+    .collapse-input {
+
+        width: 68%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .hero6-collapse h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .Collapsible span {
+
+        font-size: 1.05rem;
+        font-weight: 500;
+        padding: 1.2rem;
+    }
+
+
+    .collapse-email h3 {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+
+    .collapse-input button {
+
+        font-size: 1.5rem;
+        font-weight: 600;
+        width: 65%;
+        padding: 0.75rem;
+        margin-top: 2%;
+    }
+
+
+    .Collapsible__contentInner {
+        padding: 3%;
+        font-size: 1.025rem;
+        font-weight: 500;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    /* HERO-1 */
+
+    nav {
+
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .logo {
+
+        width: 17%;
+
+    }
+
+    .hero-text h1 {
+
+        font-weight: 700;
+        font-size: 1.9rem;
+
+    }
+
+    .hero-text p {
+
+        font-size: 1.1rem;
+        font-weight: 400;
+
+    }
+
+
+    .enter-email {
+
+        width: 75%;
+
+    }
+
+    .enter-email input {
+
+        width: 60%;
+
+    }
+
+    .enter-email button {
+
+        width: 40%;
+    }
+
+    /* HERO-2 */
+
+
+    .hero2-container {
+
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    .hero2-text {
+
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .tv-img {
+
+        width: 100%;
+    }
+
+    .break2 {
+
+        display: none;
+    }
+
+    .hero2-text h2 {
+
+        font-weight: 900;
+        font-size: 2.8rem;
+        text-align: center;
+        margin-bottom: 3% !important;
+
+    }
+
+    .hero2-text p {
+
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+
+    }
+
+
+    /* HERO-3 */
+
+
+    .hero3-video {
+
+        left: 20%;
+        bottom: 20%;
+    }
+
+    .hero3-banner img {
+
+        height: 4rem;
+    }
+
+    .hero3-download img {
+
+        height: 3.75rem;
+        margin: auto;
+
+    }
+
+    .hero3-banner-text span {
+        font-size: 0.875rem;
+    }
+
+    .text-stranger {
+
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .hero3-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hero-3 p {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .banner-img {
+
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .display1-hero3 {
+
+        display: block;
+    }
+
+    .display2-hero3 {
+
+        display: none;
+    }
+
+    .hero3-text {
+
+        padding: 0px !important;
+        text-align: center;
+    }
+
+
+    /* HERO-4 */
+
+    .hero4-text {
+
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .hero4-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .hero4-text p {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+
+    .Hero4-row {
+
+        padding: 0rem 2rem 3rem 2rem;
+
+    }
+
+
+    /* HERO-5 */
+
+    .hero-5 {
+
+        background-color: #000;
+        border-bottom: 8px solid #292929;
+
+    }
+
+    .hero5-row {
+
+        padding: 3% 2% 3% 2%;
+    }
+
+    .hero5-text {
+
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .hero5-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .hero5-text p {
+
+
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+
+    .hero5-display1 {
+
+        display: block;
+
+    }
+
+    .hero5-display2 {
+
+        display: none;
+
+    }
+
+    .hero5-banner {
+
+        padding-left: 8%;
+        padding-right: 8%;
+
+    }
+
+
+    /* Hero-6 */
+
+
+    .hero-6 {
+
+        padding: 8% 5% 8% 5%;
+
+    }
+
+    .collapse-input {
+
+        width: 68%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .hero6-collapse h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .Collapsible span {
+
+        font-size: 1.05rem;
+        font-weight: 500;
+        padding: 1.2rem;
+    }
+
+
+    .collapse-email h3 {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+
+    .collapse-input button {
+
+        font-size: 1.5rem;
+        font-weight: 600;
+        width: 50%;
+        padding: 0.75rem;
+        margin-top: 2%;
+    }
+
+    .Collapsible__contentInner {
+        padding: 3%;
+        font-size: 1.025rem;
+        font-weight: 500;
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* HERO-1 */
+
+    nav {
+
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .logo {
+
+        width: 14%;
+
+    }
+
+
+    .hero-text h1 {
+
+        font-weight: 900;
+        font-size: 2rem;
+
+    }
+
+    .hero-text p {
+
+        font-size: 1.2rem;
+        font-weight: 400;
+
+    }
+
+
+    .enter-email {
+
+        width: 70%;
+
+    }
+
+    .enter-email input {
+
+        width: 60%;
+
+    }
+
+    .enter-email button {
+
+        width: 40%;
+    }
+
+
+    /* HERO-2 */
+
+
+    .hero2-container {
+
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    .hero2-text {
+
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .tv-img {
+
+        width: 100%;
+    }
+
+    .break2 {
+
+        display: none;
+    }
+
+    .hero2-text h2 {
+
+        font-weight: 900;
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 3% !important;
+
+    }
+
+    .hero2-text p {
+
+        font-size: 1.1rem;
+        font-weight: 400;
+
+    }
+
+
+
+    /* HERO-3 */
+
+
+    .hero3-video {
+
+        left: 26%;
+        bottom: 20%;
+    }
+
+    .hero3-banner img {
+
+        height: 4.5rem;
+    }
+
+    .hero3-download img {
+
+        height: 3.75rem;
+        margin: auto;
+
+    }
+
+    .hero3-banner-text span {
+        font-size: 0.875rem;
+    }
+
+    .text-stranger {
+
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .hero3-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hero-3 p {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .banner-img {
+
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .display1-hero3 {
+
+        display: block;
+    }
+
+    .display2-hero3 {
+
+        display: none;
+    }
+
+    .hero3-text {
+
+        padding: 0px !important;
+        text-align: center;
+    }
+
+    /* HERO-4 */
+
+    .hero4-text {
+
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+
+    .hero4-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .hero4-text p {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+
+    .hero4-video {
+
+        max-width: 45%;
+        max-height: 50%;
+        position: absolute;
+        top: 6%;
+        left: 27%;
+
+    }
+
+
+    .Hero4-row {
+
+        padding: 0rem 2rem 3rem 2rem;
+
+    }
+
+    .hero4-banner {
+
+        padding-left: 15%;
+        padding-right: 15%;
+
+    }
+
+
+    /* HERO-5 */
+
+    .hero-5 {
+
+        background-color: #000;
+        border-bottom: 8px solid #292929;
+
+    }
+
+    .hero5-row {
+
+        padding: 0% 2% 0% 2%;
+    }
+
+    .hero5-text {
+
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .hero5-text h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .hero5-text p {
+
+
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+
+    .hero5-display1 {
+
+        display: block;
+
+    }
+
+    .hero5-display2 {
+
+        display: none;
+
+    }
+
+    .hero5-banner {
+
+        padding-left: 8%;
+        padding-right: 8%;
+
+    }
+
+
+    /* Hero-6 */
+
+
+    .hero-6 {
+
+        padding: 6% 3% 6% 3%;
+
+    }
+
+    .collapse-input {
+
+        width: 68%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .hero6-collapse h2 {
+
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .Collapsible span {
+
+        font-size: 1.05rem;
+        font-weight: 500;
+        padding: 1.2rem;
+    }
+
+
+    .collapse-email h3 {
+
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+
+    .collapse-input button {
+
+        font-size: 1.5rem;
+        font-weight: 600;
+        width: 50%;
+        padding: 0.75rem;
+        margin-top: 2%;
+    }
+
+    .Collapsible__contentInner {
+        padding: 3%;
+        font-size: 1.025rem;
+        font-weight: 500;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 991px) and (max-width: 1180px) {
+
+    /* HERO-1 */
+
+    .logo {
+
+        width: 15%;
+
+    }
+
+
+    nav {
+
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .enter-email input {
+
+        width: 60%;
+
+    }
+
+    .enter-email button {
+
+        width: 40%;
+    }
+
+
+    /* HERO-2 */
+
+
+    .hero2-container {
+
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    .hero2-text {
+
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+
+    .tv-img {
+
+        width: 100%;
+    }
+
+
+    /* HERO-3 */
+
+
+    .hero3-video {
+
+        left: 16%;
+        bottom: 29%;
+    }
+
+    .hero3-banner img {
+
+        height: 4.5rem;
+    }
+
+    .hero3-download img {
+
+        height: 3.75rem;
+        margin: auto;
+
+    }
+
+    .hero3-banner-text span {
+        font-size: 0.875rem;
+    }
+
+    .text-stranger {
+
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+
+
+    /* HERO-4 */
+
+    .hero4-text {
+
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+
+    .hero4-text h2 {
+
+        font-size: 3rem;
+        font-weight: 900;
+
+    }
+
+    .hero4-text p {
+
+        font-size: 1.5rem;
+        font-weight: 400;
+
+    }
+
+
+    .hero4-video {
+
+        max-width: 61%;
+        max-height: 51%;
+        position: absolute;
+        top: 7%;
+        left: 18%;
+
+    }
+
+    .Hero4-row {
+
+        padding: 3rem 2rem 3rem 2rem;
+
+    }
+
+    /* HERO-5 */
+
+    .hero-5 {
+
+        background-color: #000;
+        border-bottom: 8px solid #292929;
+
+    }
+
+    .hero5-row {
+
+        padding: 3rem 2rem 3rem 2rem;
+    }
+
+    .hero5-text {
+
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .hero5-text h2 {
+
+        font-size: 3rem;
+        font-weight: 900;
+
+    }
+
+    .hero5-text p {
+
+
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+
+    /* Hero-6 */
+
+
+    .hero-6 {
+
+        padding: 6% 3% 6% 3%;
+
+    }
+
+    .collapse-input {
+
+        width: 68%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .Collapsible__contentInner {  
+        padding: 3%;
+        font-size: 1.025rem;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,222 @@
+/* NAVBAR */
+
+.finish-main {
+
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 15%;
+}
+
+
+/* FINISH-SETTING */
+
+.setting-up p {
+
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.setting-up span {
+
+    font-weight: 700;
+
+}
+
+.setting-up h1 {
+
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.setting-logo {
+
+
+    width: 70%;
+    margin: auto;
+}
+
+.text-p p {
+
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.setting-up button {
+
+    width: 100%;
+    margin-top: 6%;
+    color: #fff;
+    background-color: #f6121d;
+    border: none;
+    border-radius: 4px;
+    padding: 4%;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* RESPONSIVE */
+
+
+@media only screen and (max-width: 481px) {
+
+
+    /* FINISH-SETTING */
+
+    .setting-up h1 {
+
+        font-weight: 700;
+        font-size: 2rem;
+
+    }
+
+    .setting-logo {
+
+        width: 100%;
+
+    }
+
+    .text-p p {
+
+        font-size: 17px;
+        font-weight: 500;
+
+    }
+
+    .setting-up {
+
+        width: 100% !important;
+
+    }
+
+    .finish-width{
+
+        width: 70% !important;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+
+    /* FINISH-SETTING */
+
+    .setting-up h1 {
+
+        font-weight: 700;
+        font-size: 2rem;
+
+    }
+
+    .setting-logo {
+
+        width: 100%;
+
+    }
+
+    .text-p p {
+
+        font-size: 17px;
+        font-weight: 500;
+
+    }
+
+    .setting-up {
+
+        width: 100% !important;
+
+    }
+
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+
+    /* FINISH-SETTING */
+
+    .setting-up h1 {
+
+        font-weight: 700;
+        font-size: 2rem;
+
+    }
+
+    .setting-logo {
+
+        width: 100%;
+
+    }
+
+    .text-p p {
+
+        font-size: 17px;
+        font-weight: 500;
+
+    }
+
+    .setting-up {
+
+        width: 80% !important;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+    /* FINISH-SETTING */
+
+    .setting-up h1 {
+
+        font-weight: 700;
+        font-size: 2rem;
+
+    }
+
+    .setting-logo {
+
+        width: 70%;
+
+    }
+
+    .text-p p {
+
+        font-size: 18px;
+        font-weight: 500;
+
+    }
+
+    .setting-up {
+
+        width: 70% !important;
+
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 991px) and (max-width: 1180px) {
+
+
+    /* FINISH-SETTING */
+
+    .setting-up {
+
+        width: 60% !important;
+
+    }
+
+
+}

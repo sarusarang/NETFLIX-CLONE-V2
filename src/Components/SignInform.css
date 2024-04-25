@@ -1,0 +1,423 @@
+/* NAVBAR */
+
+.signIn-main {
+
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url('/SignIn-Banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signIn-background {
+
+    width: 100%;
+    background-color: #0000008c;
+}
+
+.nav-logo {
+
+    width: 12%;
+}
+
+nav {
+
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+/* SIGNIN-FORM */
+
+.Signin {
+
+    background-color: #000000c4;
+    padding: 3rem 4rem 8rem 4rem;
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+.SignIn-form h1 {
+
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.signin-input input {
+
+    background-color: #181818a1;
+    border: 1px solid #847878;
+    border-radius: 6px;
+    width: 100%;
+    padding: 4%;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: medium;
+
+}
+
+.signin-input {
+
+    margin-bottom: 5%;
+}
+
+.signin-btn-1 {
+
+    width: 100%;
+    color: #fff;
+    background-color: red;
+    border: none;
+    padding: 2%;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.SignIn-form-inner p {
+
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.SignIn-form-inner a {
+
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.SignIn-form-inner a:hover {
+
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.newto-netflix p {
+
+    text-align: start;
+}
+
+.newto-netflix a:hover {
+
+    color: #fff;
+    text-decoration: underline;
+
+}
+
+.Learn-more {
+
+    font-size: small;
+
+}
+
+.Learn-more a {
+
+    color: blue;
+}
+
+.Learn-more a:hover {
+
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.signin-checkbox {
+
+    margin-bottom: 5%;
+}
+
+.signin-checkbox input[type=checkbox] {
+
+    accent-color: red;
+    width: 5%;
+
+}
+
+.signin-checkbox label {
+    color: #fff;
+}
+
+
+::placeholder {
+    color: #c0c0c0;
+}
+
+form {
+    display: contents;
+}
+
+/* FOOTER */
+
+.footer-signIN {
+
+    width: 100%;
+    background-color: #000000b0;
+
+}
+
+.foot-list ul {
+    padding: 0px !important;
+}
+
+.foot-list li {
+
+    list-style: none;
+    margin-bottom: 4%;
+
+}
+
+.foot-list a {
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.foot-p p {
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.foot-p a {
+
+    text-decoration: none;
+
+}
+
+.foot-p a:hover {
+    text-decoration: underline;
+}
+
+.footer-signIN select {
+
+    background-color: #000000b0;
+    color: #fff;
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: medium;
+    margin-top: 2%;
+
+}
+
+/* Responsive */
+
+
+@media only screen and (max-width: 481px) {
+
+    /* NAVBAR */
+
+    .nav-logo {
+
+        width: 25%;
+    }
+
+    nav {
+
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .signIn-background {
+
+        background-color: #000000;
+    }
+
+
+    /* SIGNIN-FORM */
+
+    .Signin {
+
+        width: 100%;
+        padding: 0rem 1.125rem 5rem 1.125rem;
+        margin-bottom: 0px;
+
+    }
+
+    .Signin-main {
+
+        display: flex !important;
+        justify-content: start !important;
+    }
+
+    .signin-checkbox input[type=checkbox] {
+
+        width: 4%;
+
+    }
+
+
+    /* footer */
+
+    .footer-signIN {
+
+        padding: 0px !important;
+        border-top: 1px solid #898989;
+    }
+
+    .foot-container {
+
+        padding: 2rem !important;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+
+    /* NAVBAR */
+
+    .nav-logo {
+
+        width: 25%;
+    }
+
+    nav {
+
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .signIn-background {
+
+        background-color: #000000;
+    }
+
+
+    /* SIGNIN-FORM */
+
+    .Signin {
+
+        width: 100%;
+        padding: 0rem 2rem 5rem 2rem;
+        margin-bottom: 0px;
+
+    }
+
+    .Signin-main {
+
+        display: flex !important;
+        justify-content: start !important;
+    }
+
+    .signin-checkbox input[type=checkbox] {
+
+        width: 4%;
+
+    }
+
+    /* footer */
+
+    .footer-signIN {
+
+        padding: 0px !important;
+        border-top: 1px solid #898989;
+    }
+
+    .foot-container {
+
+        padding: 2rem !important;
+
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    /* NAVBAR */
+
+
+    .nav-logo {
+
+        width: 17%;
+    }
+
+    nav {
+
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+    /* SIGNIN-FORM */
+
+    .Signin {
+
+        width: 60%;
+        padding: 3rem 3rem 8rem 3rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* NAVBAR */
+
+
+
+    .nav-logo {
+
+        width: 15%;
+    }
+
+    nav {
+
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+    /* SIGNIN-FORM */
+
+    .Signin {
+
+        width: 55%;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 991px) and (max-width: 1180px) {
+
+    /* NAVBAR */
+
+    .nav-logo {
+
+        width: 14%;
+    }
+
+    nav {
+
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    /* SIGNIN-FORM */
+
+    .Signin {
+
+        width: 50%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1180px) and (max-width: 1300px) {
+
+    /* SIGNIN-FORM */
+
+    .Signin {
+
+        width: 35%;
+    }
+
+}
