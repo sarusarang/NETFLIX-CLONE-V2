@@ -3,7 +3,6 @@ import './Bannervideo.css'
 
 function BannerVideo() {
 
-
     // TO HANDLE WHEN THE BANNER VIDEO IS ENDED
     const [videoend, setvideoend] = useState(false)
     const [videonone, setvideonone] = useState(true)
@@ -15,7 +14,8 @@ function BannerVideo() {
     // TO HANDLE MULTIPLE SECTION SUCH AS MOVIE HOME..ECT WHEN A USERCLICKS
     const [Home, setHome] = useState(false)
     const [Tvshows, SetTVshows] = useState(false)
-    const [Movies, SetMovies] = useState(true)
+    const [Movies, SetMovies] = useState(false)
+    const [Children, setchlidren] = useState(true)
 
     // Resource for multiple section
 
@@ -57,23 +57,33 @@ function BannerVideo() {
                                 {
                                     Home &&
 
-                                    <source src='/HOME-VIDEO.mp4' />
+                                    <source src='https://dl.dropboxusercontent.com/scl/fi/bc5fkwaebg4vc2q98m5oa/HOME-VIDEO.mp4?rlkey=hdojk0az2gax87aenc371usbh&st=8zxg2z24&dl=0' type='video/mp4' />
+
+
 
                                 }
 
                                 {
                                     Tvshows &&
 
-                                    <source src='/TV-SHOW-VIDEO.mp4' />
+                                    <source src='https://dl.dropboxusercontent.com/scl/fi/7hauz1hfzdx1uk03sxcvm/TV-SHOW-VIDEO.mp4?rlkey=d2tzbhhzjyq26tlxxhmj4htao&st=t6qovyn4&dl=0' />
 
                                 }
 
                                 {
                                     Movies &&
 
-                                    <source src='/MOVIE-VIDEO.mp4' />
+                                    <source src='https://dl.dropboxusercontent.com/scl/fi/y99dp61nzo0c9ago66gf5/MOVIE-VIDEO.mp4?rlkey=t9apd4u1dhfflfrwz53r8ljh1&st=i2a8ie48&dl=0' />
 
                                 }
+
+                                {
+                                    Children &&
+
+                                    <source src='https://dl.dropboxusercontent.com/scl/fi/ct1dk10scuk9hfrs2caam/CHLIDREN-VIDEO.mp4?rlkey=hu5ni6871scxmsd83cpkenjc1&st=fr95u0om&dl=0' />
+
+                                }
+
 
 
 
@@ -136,6 +146,16 @@ function BannerVideo() {
                             }
 
 
+                            {
+
+                                Children &&
+
+                                <img width={'100%'} height={'95%'} src="https://media.mikrosanimation.com/app/uploads/2023/01/02110235/KungFuPanda-still.jpg" className='img-fluid' alt="banner-img" />
+
+
+                            }
+
+
 
 
                         </div>
@@ -175,6 +195,16 @@ function BannerVideo() {
 
 
                         }
+
+                        {
+
+                            Children &&
+
+                            <img src="https://occ-0-7777-3663.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABe4VHKlIF5u1HPyYsHgMB0t44Zx8B6XxaRzKnZAO2fKZ-bcwZ03nALhdtb-Plo1nHhtNCNi6ewe5vMpIkZ01JG8Nq0Hg1tixNRzk3bXlP1yiPRuoAcn8cjzM2c1IZUg32cZnFbDz-uXjY8jJJy0oASBTBXR881DsGLwOxjyMBzjwYewsRorF.webp?r=789" className='img-fluid' alt="" />
+
+
+                        }
+
 
 
 

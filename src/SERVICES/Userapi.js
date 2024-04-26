@@ -1,7 +1,7 @@
 import JsonApi from "./JsonApi";
 
 // URL OF JSON SERVER
-const URL = "https://netflix-user-server-1.onrender.com/Userdata"
+const URL = "https://netflix-user-server.onrender.com/Userdata"
 
 // PUSHING USER DATA TO THE SERVER
 export const userdata =async(data)=>{
