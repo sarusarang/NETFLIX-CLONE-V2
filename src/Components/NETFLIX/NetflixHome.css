@@ -20,7 +20,13 @@
     transition: background ease-in-out 0.4s;
 }
 
+.multi-btn{
 
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
 
 
 .netflix-navbar-logo {

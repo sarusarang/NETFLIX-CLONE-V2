@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { Children } from 'react'
 import './NetflixHome.css'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import NetflixFooter from './NetflixFooter'
 import BannerVideo from './BannerVideo';
-
+import { useDispatch } from 'react-redux';
+import { home, tvshows, movies, child } from '../../Store/Netflix';
 
 function NetflixHome({ p, id }) {
 
@@ -49,6 +49,10 @@ function NetflixHome({ p, id }) {
 
     }
 
+    // use dispatch
+
+    const dispatch = useDispatch()
+
 
 
     return (
@@ -76,9 +80,11 @@ function NetflixHome({ p, id }) {
 
                                 <ul className='d-flex netflix-navlist'>
 
-                                    <li><a href="">Home</a></li>
-                                    <li><a href="">TV Shows</a></li>
-                                    <li><a href="">Movies</a></li>
+                                    <li><button className='multi-btn' onClick={() => { dispatch(home()) }}>Home</button></li>
+
+                                    <li><button className='multi-btn' onClick={() => { dispatch(tvshows()) }}>Tv Shows</button></li>
+
+                                    <li><button className='multi-btn' onClick={() => { dispatch(movies()) }}>Movies</button></li>
 
                                 </ul>
 
@@ -109,11 +115,11 @@ function NetflixHome({ p, id }) {
 
                                     </div>
 
-                                    <Link to={'/netflix'} className='Chlidren-section'>
 
-                                        <a href="">Childern</a>
 
-                                    </Link>
+                                    <button className='multi-btn me-3' onClick={() => { dispatch(child()) }}>Children</button>
+
+
 
 
                                     <div className='bell-drop'>
@@ -313,7 +319,7 @@ function NetflixHome({ p, id }) {
 
                 </section>
 
-                
+
 
 
                 <section className='video-container'>
@@ -336,7 +342,7 @@ function NetflixHome({ p, id }) {
 
             </div>
 
-            
+
 
 
 

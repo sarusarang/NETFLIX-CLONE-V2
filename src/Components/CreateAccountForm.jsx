@@ -84,11 +84,11 @@ function CreateAccountForm() {
 
     else {
 
-
       data.profile.push(pro)
 
       const res = await userdata(data)
 
+      console.log(res.status);
 
       if (res.status >= 200 && res.status <= 300) {
 
