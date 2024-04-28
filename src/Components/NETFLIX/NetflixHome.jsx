@@ -8,7 +8,11 @@ import BannerVideo from './BannerVideo';
 import { useDispatch } from 'react-redux';
 import { home, tvshows, movies, child } from '../../Store/Netflix';
 
+
+
 function NetflixHome({ p, id }) {
+
+
 
     // offfcanvas 
     const [show, setShow] = useState(false);

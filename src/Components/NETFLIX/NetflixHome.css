@@ -250,6 +250,22 @@
 
 }
 
+
+/* VIDEO PLAYER */
+
+.videoplayer{
+
+    height: 100%
+
+}
+
+.main-video{
+
+    overflow-x: hidden ;
+    overflow-y: hidden;
+
+}
+
 @keyframes fadeInRight {
     from {
         opacity: 0;

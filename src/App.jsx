@@ -6,7 +6,7 @@ import FinishSetting from './Pages/FinishSetting';
 import CreateAccount from './Pages/CreateAccount';
 import WhosWatching from './Pages/WhosWatching';
 import Netflix from './Pages/Netflix';
-
+import FullScreenVideo from './Components/NETFLIX/VideoPlayer';
 
 
 function App() {
@@ -22,7 +22,8 @@ function App() {
       <Route path='/finish' Component={FinishSetting}></Route>
       <Route path='/create' Component={CreateAccount}></Route>
       <Route path='/profile/:id' Component={WhosWatching}></Route>
-      <Route path='/netflix/:id' element={<Netflix/>}></Route>
+      <Route path='/netflix/:id' Component={Netflix}></Route>
+      <Route path='/player' Component={FullScreenVideo}></Route>
 
 
     </Routes>

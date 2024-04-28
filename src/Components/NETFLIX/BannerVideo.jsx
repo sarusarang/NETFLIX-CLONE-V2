@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import './Bannervideo.css'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 function BannerVideo() {
 
@@ -52,23 +53,23 @@ function BannerVideo() {
                         <div style={{ position: "relative" }}>
 
 
-                            {
-
-                                TVSHOWS &&
-
-
-                                <video ref={videoRef} onEnded={handlevideoended} playsInline autoPlay muted width={'100%'} src='https://dl.dropboxusercontent.com/scl/fi/txyxz5khqtxig9sxyhmuc/MONEY-HEIST.mp4?rlkey=m3y80hodd95rtfe8lt9ge846p&st=z0x6aeh0&dl=0' type='video/mp4'></video>
-
-
-                            }
-
-
 
                             {
 
                                 HOME &&
 
                                 <video ref={videoRef} onEnded={handlevideoended} playsInline autoPlay muted width={'100%'} src='https://dl.dropboxusercontent.com/scl/fi/2f8pdc8eqbh8n3bv87qjw/ST-VIDEO.mp4?rlkey=u35xa39g9z4nlq432rfhquifo&st=noxscx6a&dl=0' type='video/mp4'></video>
+
+
+                            }
+
+
+                            {
+
+                                TVSHOWS &&
+
+
+                                <video ref={videoRef} onEnded={handlevideoended} playsInline autoPlay muted width={'100%'} src='https://dl.dropboxusercontent.com/scl/fi/txyxz5khqtxig9sxyhmuc/MONEY-HEIST.mp4?rlkey=m3y80hodd95rtfe8lt9ge846p&st=z0x6aeh0&dl=0' type='video/mp4'></video>
 
 
                             }
@@ -100,7 +101,7 @@ function BannerVideo() {
 
                                 <button onClick={handleMuteToggle} >
 
-                                
+
                                     {isMuted ? <i class="fa-solid fa-volume-xmark"></i> : <i class="fa-solid fa-volume-high"></i>}
 
                                 </button>
@@ -127,18 +128,20 @@ function BannerVideo() {
 
                             {
 
-                                TVSHOWS &&
+                                HOME &&
 
-                                <img width={'100%'} height={'95%'} src="https://wallpapers.com/images/featured/money-heist-segtwbhffwy01w82.jpg" className='img-fluid' alt="banner-img" />
+                                <img width={'100%'} height={'95%'} src="https://images6.alphacoders.com/111/1114212.jpg" className='img-fluid' alt="banner-img" />
 
 
                             }
 
+
+
                             {
 
-                                HOME &&
+                                TVSHOWS &&
 
-                                <img width={'100%'} height={'95%'} src="https://images6.alphacoders.com/111/1114212.jpg" className='img-fluid' alt="banner-img" />
+                                <img width={'100%'} height={'95%'} src="https://wallpapers.com/images/featured/money-heist-segtwbhffwy01w82.jpg" className='img-fluid' alt="banner-img" />
 
 
                             }
@@ -178,6 +181,16 @@ function BannerVideo() {
                     <div className='banner-text-img'>
 
 
+
+                        {
+
+                            HOME &&
+
+                            <img src="https://occ-0-7777-3663.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABSNUzoP8HHEMoUSYEp5GdQ92BwmUzjENlcVRytYB-9zH3CWjN1d3IEkLGjB8njlIALYjHH8NG9eT0k876YHi9_JtUIJCaG9ZXHcEC26sYbfa-GlUN6Xyuvg5dqpkUDPvoUvTLYssGgkv0YErnLL1LEzancT6V39BpxajPFO7uP1Q_SpE-D4E.webp?r=23b" className='img-fluid' alt="" />
+
+
+                        }
+
                         {
 
                             TVSHOWS &&
@@ -188,14 +201,6 @@ function BannerVideo() {
                         }
 
 
-                        {
-
-                            HOME &&
-
-                            <img src="https://occ-0-7777-3663.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABSNUzoP8HHEMoUSYEp5GdQ92BwmUzjENlcVRytYB-9zH3CWjN1d3IEkLGjB8njlIALYjHH8NG9eT0k876YHi9_JtUIJCaG9ZXHcEC26sYbfa-GlUN6Xyuvg5dqpkUDPvoUvTLYssGgkv0YErnLL1LEzancT6V39BpxajPFO7uP1Q_SpE-D4E.webp?r=23b" className='img-fluid' alt="" />
-
-
-                        }
 
                         {
 
@@ -219,7 +224,67 @@ function BannerVideo() {
 
                     </div>
 
-                    <button > <i class="fa-solid fa-play fa-lg"></i>  Play</button>
+                    {
+
+                        HOME &&
+
+
+                        <Link to={'/player?id=mnd7sFt5c3A'}>
+
+                            <button > <i class="fa-solid fa-play fa-lg"></i>  Play</button>
+
+
+                        </Link>
+
+
+                    }
+
+
+                    {
+
+                        TVSHOWS &&
+
+                        <Link to={'/player?id=_InqQJRqGW4'}>
+
+                            <button > <i class="fa-solid fa-play fa-lg"></i>  Play</button>
+
+
+                        </Link>
+
+                    }
+
+
+
+                    {
+
+                        MOVIES &&
+
+                        <Link to={'/player?id=giXco2jaZ_4'}>
+
+                            <button > <i class="fa-solid fa-play fa-lg"></i>  Play</button>
+
+
+                        </Link>
+
+                    }
+
+
+                    {
+
+                        CHILDREN &&
+
+                        <Link to={'/player?id=gtXvEjCEEfA'}>
+
+                            <button > <i class="fa-solid fa-play fa-lg"></i>  Play</button>
+
+
+                        </Link>
+
+                    }
+
+
+
+
 
                 </div>
 
