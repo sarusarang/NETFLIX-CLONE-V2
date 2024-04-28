@@ -1,0 +1,290 @@
+/* OWL SLIDER */
+.main-slider {
+
+    width: 100%;
+    background-color: #141414;
+
+}
+
+.slick-slider {
+
+    width: 97%;
+    margin-left: 2rem;
+}
+
+
+.us-tvshows {
+
+    position: relative;
+    margin-top: -7rem;
+
+}
+
+.us-tvshows h3 {
+
+    color: #fff;
+    margin-left: 3rem;
+    font-size: x-large;
+
+}
+
+.slick-initialized .slick-slide {
+
+    margin-right: 0px;
+}
+
+.next-btn {
+
+    position: absolute;
+    right: 0;
+    color: #fff;
+    background-color: transparent;
+    height: 100%;
+    padding: 0.1rem 0.9rem 0.1rem 0.9rem;
+    border: none;
+    outline: none;
+    transition: all ease-in-out 0.2s;
+    font-size: x-large;
+
+}
+
+.next-btn:hover {
+
+    background-color: #141414a5;
+
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 1180px) and (max-width: 1400px) {
+
+    /* OWL SLIDER */
+    .card-img-overlay {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .card-title {
+
+        font-size: medium;
+    }
+
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1180px) {
+
+    /* OWL SLIDER */
+    .us-tvshows {
+
+        position: relative;
+        margin-top: -4rem;
+
+    }
+
+    .card-img-overlay {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .card-title {
+
+        font-size: medium;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* OWL SLIDER */
+    .us-tvshows {
+
+        position: relative;
+        margin-top: -3rem;
+
+    }
+
+    .slick-slider {
+
+        width: 96%;
+    }
+
+
+    .us-tvshows h3 {
+
+
+        margin-left: 2rem;
+        font-size: larger;
+
+    }
+
+
+    .card-img-overlay {
+        position: absolute;
+        top: 45%;
+        left: 0;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .card-title {
+
+        font-size: medium;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+
+    /* OWL SLIDER */
+    .us-tvshows {
+
+        position: none;
+        margin-top: 0px;
+        padding-top: 5rem;
+
+    }
+
+    .us-tvshows h3 {
+
+        margin-left: 1rem;
+        font-size: larger;
+
+    }
+
+
+    .slick-slider {
+
+        width: 96%;
+        margin-left: 0rem;
+    }
+
+
+    .card-img-overlay {
+        position: absolute;
+        top: 45%;
+        left: 0;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .card-title {
+
+        font-size: medium;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+
+    /* OWL SLIDER */
+    .us-tvshows {
+
+        position: none;
+        margin-top: 0px;
+        padding-top: 5rem;
+
+    }
+
+    .us-tvshows h3 {
+
+        margin-left: 1rem;
+        font-size: larger;
+
+    }
+
+
+    .slick-slider {
+
+        width: 96%;
+        margin-left: 1rem;
+    }
+
+    .card-img-overlay {
+        position: absolute;
+        top: 0%;
+        left: 0;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .card-title {
+
+        font-size: medium;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 481px) {
+
+
+    /* OWL SLIDER */
+    .us-tvshows {
+
+        position: none;
+        margin-top: 0px;
+        padding-top: 4rem;
+
+    }
+
+    .us-tvshows h3 {
+
+        margin-left: 1.5rem;
+        font-size: larger;
+        color: #999;
+        font-weight: 700;
+
+    }
+
+
+    .slick-slider {
+
+        width: 85%;
+        margin-left: -1rem;
+    }
+
+    .card-img-overlay {
+        position: absolute;
+        top: 0%;
+        left: 0;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .card-title {
+
+        font-size: medium;
+    }
+
+
+
+}

@@ -7,6 +7,8 @@ import CreateAccount from './Pages/CreateAccount';
 import WhosWatching from './Pages/WhosWatching';
 import Netflix from './Pages/Netflix';
 import FullScreenVideo from './Components/NETFLIX/VideoPlayer';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
       <Route path='/profile/:id' Component={WhosWatching}></Route>
       <Route path='/netflix/:id' Component={Netflix}></Route>
       <Route path='/player' Component={FullScreenVideo}></Route>
+     
 
 
     </Routes>

@@ -1,22 +1,22 @@
-.Netflix-footer{
+.Netflix-footer {
 
     background-color: #141414;
     padding: 0.9rem 7rem 0.9rem 7rem;
 }
 
-.Netflix-foot a{
+.Netflix-foot a {
 
     color: grey;
     text-decoration: none;
     font-size: smaller;
 }
 
-.Netflix-foot a:hover{
+.Netflix-foot a:hover {
 
     text-decoration: underline;
 }
 
-.Netflix-foot-btn{
+.Netflix-foot-btn {
 
     color: grey;
     background-color: transparent;
@@ -27,22 +27,32 @@
     margin-bottom: 1%;
 }
 
-.Netflix-foot-btn:hover{
+.Netflix-foot-btn:hover {
 
     color: #fff;
 
 }
 
-.copyright-netflix{
+.copyright-netflix {
 
     color: grey;
     font-size: smaller;
 }
 
-.Netflix-foot-icon i{
+.Netflix-foot-icon i {
 
     font-size: x-large;
     margin-right: 2%;
     color: #fff;
+
+}
+
+@media only screen and (max-width: 481px) {
+
+
+    .footer-signIN {
+
+        border: none;
+    }
 
 }

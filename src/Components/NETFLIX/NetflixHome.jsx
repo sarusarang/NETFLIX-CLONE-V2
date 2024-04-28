@@ -7,6 +7,7 @@ import NetflixFooter from './NetflixFooter'
 import BannerVideo from './BannerVideo';
 import { useDispatch } from 'react-redux';
 import { home, tvshows, movies, child } from '../../Store/Netflix';
+import HomeVideos from './HomeVideos';
 
 
 
@@ -324,12 +325,19 @@ function NetflixHome({ p, id }) {
                 </section>
 
 
-
+             
 
                 <section className='video-container'>
 
                     <BannerVideo />
 
+
+                </section>
+
+
+                <section className='Homecard'>
+
+                    <HomeVideos/>
 
                 </section>
 
