@@ -4,6 +4,8 @@ import Slider from 'react-slick';
 import { getmovie } from '../../SERVICES/Movie';
 import { useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
 
 function HomeVideos() {
 
@@ -22,8 +24,12 @@ function HomeVideos() {
 
   }
 
+  
   console.log(movie);
+
   const posterUrl = `https://image.tmdb.org/t/p/w300`;
+
+
 
 
 
@@ -32,8 +38,6 @@ function HomeVideos() {
   const next = () => {
     sliderRef.current.slickNext();
   };
-
-
 
 
   // SLIDER RESPONSIVE
@@ -77,11 +81,13 @@ function HomeVideos() {
   }
 
 
+
   return (
 
 
     <>
       <section className='main-slider'>
+
 
 
         {/*YOUNG ADULT TV SHOWS & MOVIES */}
@@ -102,29 +108,58 @@ function HomeVideos() {
 
                   movie.map(item => (
 
+                    <div className='slider-item'>
 
-                    <Card className="bg-dark text-white" style={{ width: '18rem' }}>
+                      <Card className="bg-dark text-white card-hoverable" style={{ width: '15rem' }}>
 
-                      <Card.Img src={`${posterUrl}${item.backdrop_path}`} alt="Card image" />
+                        <Card.Img src={`${posterUrl}${item.backdrop_path}`} alt="Card image" />
 
-                      <Card.ImgOverlay>
+                        <Card.ImgOverlay>
 
-                        <Card.Title>{item.title}</Card.Title>
+                          <Card.Title>{item.title}</Card.Title>
 
-                      </Card.ImgOverlay>
+                        </Card.ImgOverlay>
 
-                    </Card>
+                      </Card>
+
+
+
+                      {/* HOVERD CARD */}
+                      <Card style={{ width: '18rem' }} className='hover-card'>
+
+                        <Card.Img variant="top" src={`${posterUrl}${item.backdrop_path}`} />
+
+                        <Card.Body>
+
+                          <Button className='hover-btn'><i class="fa-solid fa-play"></i></Button>
+
+                          <Button className='hover-btn-plus'><i class="fa-solid fa-plus"></i></Button>
+
+                          <Button className='hover-btn-plus'><i class="fa-regular fa-thumbs-up"></i></Button>
+
+                          <Button className='hover-btn-plus' style={{ marginLeft: '4.1rem' }}><i class="fa-solid fa-angle-down"></i></Button>
+
+                          <Card.Title className='mt-2'>{item.title}</Card.Title>
+
+                          <Card.Text className='match'>95% Match  <span>{item.adult?`U/A 18+` : "U/A 13+"}</span></Card.Text>
+
+                        </Card.Body>
+
+                      </Card>
+
+
+                    </div>
 
                   ))
 
                   :
-
                   <h1 className='text-white'>Ops Something Went Wrong...</h1>
 
               }
 
             </Slider>
 
+            {/* NEXT BUTTON */}
             <button className='next-btn' onClick={next} >
 
               <i class="fa-solid fa-angle-right fa-lg"></i>
@@ -134,6 +169,12 @@ function HomeVideos() {
           </div>
 
         </div>
+
+
+
+
+
+
 
 
       </section>

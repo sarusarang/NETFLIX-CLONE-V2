@@ -63,6 +63,94 @@
     border-radius: 5px;
 }
 
+.haed-pos{
+
+}
+
+/* CARD-HOVER */
+
+.slider-item:hover .card-hoverable {
+
+    display: none !important;
+
+}
+
+.slider-item:hover .hover-card{
+
+    display: block;
+}
+
+.hover-card {
+
+    background-color: #141414;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 10px;
+    display: none;
+    transition: all ease-in-out 0.2s;
+    z-index: 1;
+    color: #fff;
+    margin-top: -5rem;
+
+}
+
+.slick-list{
+
+    overflow: visible !important;
+    overflow-x: clip !important;
+
+}
+
+.hover-btn {
+
+    color: #000;
+    background-color: #fff;
+    border-radius: 22px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    margin-right: 3%;
+
+}
+
+.hover-btn:hover {
+
+    background-color: #e7e4e4;
+    color: #000;
+}
+
+.hover-btn-plus {
+
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 22px;
+    border: 1px solid #d3caca59;
+    outline: none;
+    font-size: medium;
+    margin-right: 3%;
+
+}
+
+.hover-btn-plus:hover {
+
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.match{
+
+    color: #46d369;
+    font-weight: 600;
+}
+
+.match span{
+
+    color: #d6d1d1b8;
+    font-weight: 500;
+    border: 1px solid #d3caca59;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+
 /* RESPONSIVE */
 
 @media only screen and (min-width: 1180px) and (max-width: 1400px) {
@@ -284,7 +372,6 @@
 
         font-size: medium;
     }
-
 
 
 }
