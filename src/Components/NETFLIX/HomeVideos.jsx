@@ -6,7 +6,6 @@ import { useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-
 function HomeVideos() {
 
   const [movie, setmovie] = useState([])
@@ -24,13 +23,9 @@ function HomeVideos() {
 
   }
 
-  
   console.log(movie);
 
   const posterUrl = `https://image.tmdb.org/t/p/w300`;
-
-
-
 
 
   // Function to go to the next slide
@@ -51,8 +46,9 @@ function HomeVideos() {
     arrows: false,
 
     responsive: [
+
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 3,
@@ -79,7 +75,6 @@ function HomeVideos() {
     ]
 
   }
-
 
 
   return (
@@ -110,7 +105,7 @@ function HomeVideos() {
 
                     <div className='slider-item'>
 
-                      <Card className="bg-dark text-white card-hoverable" style={{ width: '15rem' }}>
+                      <Card className="bg-dark text-white card-hoverable card-animation">
 
                         <Card.Img src={`${posterUrl}${item.backdrop_path}`} alt="Card image" />
 
@@ -123,29 +118,30 @@ function HomeVideos() {
                       </Card>
 
 
-
                       {/* HOVERD CARD */}
-                      <Card style={{ width: '18rem' }} className='hover-card'>
 
-                        <Card.Img variant="top" src={`${posterUrl}${item.backdrop_path}`} />
+                      
+                        <Card className='hover-card' >
 
-                        <Card.Body>
+                          <Card.Img variant="top" src={`${posterUrl}${item.backdrop_path}`} />
 
-                          <Button className='hover-btn'><i class="fa-solid fa-play"></i></Button>
+                          <Card.Body>
 
-                          <Button className='hover-btn-plus'><i class="fa-solid fa-plus"></i></Button>
+                            <Button className='hover-btn'><i class="fa-solid fa-play"></i></Button>
 
-                          <Button className='hover-btn-plus'><i class="fa-regular fa-thumbs-up"></i></Button>
+                            <Button className='hover-btn-plus'><i class="fa-solid fa-plus"></i></Button>
 
-                          <Button className='hover-btn-plus' style={{ marginLeft: '4.1rem' }}><i class="fa-solid fa-angle-down"></i></Button>
+                            <Button className='hover-btn-plus'><i class="fa-regular fa-thumbs-up"></i></Button>
 
-                          <Card.Title className='mt-2'>{item.title}</Card.Title>
+                            <Button className='hover-btn-plus' style={{ marginLeft: '4.1rem' }}><i class="fa-solid fa-angle-down"></i></Button>
 
-                          <Card.Text className='match'>95% Match  <span>{item.adult?`U/A 18+` : "U/A 13+"}</span></Card.Text>
+                            <Card.Title className='mt-2'>{item.title}</Card.Title>
 
-                        </Card.Body>
+                            <Card.Text className='match'>95% Match  <span>{item.adult ? `U/A 18+` : "U/A 13+"}</span></Card.Text>
 
-                      </Card>
+                          </Card.Body>
+
+                        </Card>
 
 
                     </div>
@@ -170,23 +166,12 @@ function HomeVideos() {
 
         </div>
 
-
-
-
-
-
-
-
       </section>
 
 
     </>
 
-
   )
-
-
-
 
 }
 
