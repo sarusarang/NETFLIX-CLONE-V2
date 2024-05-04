@@ -194,8 +194,11 @@ function Profile() {
 
                                             userobject.map((item, index) => (
 
+                                                
 
                                                 <div className='profile-user me-4'>
+
+                                                   
 
                                                     <Link to={`/netflix/${id}?p=${item.profile1}`}>
 
@@ -223,14 +226,7 @@ function Profile() {
                                     }
 
 
-                                    <div className='profile-user'>
-
-                                        <img src="/Profile-Children.png" className='img-fluid' alt="" />
-
-                                        <h4 className='tt'>Children</h4>
-
-
-                                    </div>
+                                  
 
                                     {
 

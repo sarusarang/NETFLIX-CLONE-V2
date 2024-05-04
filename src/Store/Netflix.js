@@ -11,13 +11,14 @@ const initialState = {
 const netflixSlice = createSlice({
     name: "Netflix",
     initialState: initialState,
+
     reducers: {
+        
         home: (state) => {
             state.HOME = true;
             state.TVSHOWS = false;
             state.MOVIES = false;
             state.CHILDREN = false;
-           
             
         },
         tvshows: (state) => {

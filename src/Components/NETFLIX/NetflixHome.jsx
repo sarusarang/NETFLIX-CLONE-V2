@@ -8,12 +8,18 @@ import BannerVideo from './BannerVideo';
 import { useDispatch } from 'react-redux';
 import { home, tvshows, movies, child } from '../../Store/Netflix';
 import HomeVideos from './HomeVideos';
+import { useSelector } from 'react-redux'
+import TvShow from './TvShow';
+import Movies from './Movies'
+import Animated from './Animated';
 
 
 
 function NetflixHome({ p, id }) {
 
 
+    // TO HANDLE MULTIPLE SECTION SUCH AS MOVIE HOME..ECT WHEN A USERCLICKS
+    const { HOME, TVSHOWS, MOVIES, CHILDREN } = useSelector((state) => state.netflix)
 
     // offfcanvas 
     const [show, setShow] = useState(false);
@@ -291,10 +297,10 @@ function NetflixHome({ p, id }) {
 
                                         <ul className='mob-list'>
 
-                                            <li><a href="">Home</a></li>
-                                            <li><a href="">Movies</a></li>
-                                            <li><a href="">Tv Shows</a></li>
-                                            <li><a href="">Children & Family</a></li>
+                                            <li><a href="" onClick={() => { dispatch(home()) }}>Home</a></li>
+                                            <li><a href="" onClick={() => { dispatch(movies()) }}>Movies</a></li>
+                                            <li><a href="" onClick={() => { dispatch(tvshows()) }}>Tv Shows</a></li>
+                                            <li><a href="" onClick={() => { dispatch(child()) }}>Children & Family</a></li>
                                             <li><a href="">Thirllers</a></li>
                                             <li><a href="">International Movies and Tv</a></li>
                                             <li><a href="">Dramas</a></li>
@@ -325,7 +331,7 @@ function NetflixHome({ p, id }) {
                 </section>
 
 
-             
+
 
                 <section className='video-container'>
 
@@ -335,11 +341,56 @@ function NetflixHome({ p, id }) {
                 </section>
 
 
-                <section className='Homecard'>
+                {
 
-                    <HomeVideos p={p}/>
+                    HOME &&
 
-                </section>
+                    <section className='Homecard'>
+
+                        <HomeVideos p={p} />
+
+                    </section>
+
+                }
+
+                {
+                    TVSHOWS &&
+
+                    <section className='Homecard'>
+
+                        <TvShow p={p} />
+
+                    </section>
+
+
+                }
+
+
+                {
+                    MOVIES &&
+
+                    <section className='Homecard'>
+
+                        <Movies p={p} />
+
+                    </section>
+
+
+                }
+
+                {
+                    CHILDREN &&
+
+                    <section className='Homecard'>
+
+                        <Animated p={p} />
+
+                    </section>
+
+
+                }
+
+
 
 
                 <section>
