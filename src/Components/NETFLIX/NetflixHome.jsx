@@ -337,7 +337,7 @@ function NetflixHome({ p, id }) {
 
                 <section className='Homecard'>
 
-                    <HomeVideos/>
+                    <HomeVideos p={p}/>
 
                 </section>
 

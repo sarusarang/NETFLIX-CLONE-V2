@@ -164,7 +164,6 @@ function Profile() {
 
         setprofilestate(deltepro.data)
 
-
     }
 
 

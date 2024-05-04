@@ -28,6 +28,15 @@
 
 }
 
+.slide-h3 h3 {
+
+    color: #fff;
+    margin-left: 3rem;
+    font-size: x-large;
+    margin-top: 2%;
+
+}
+
 .slick-initialized .slick-slide {
 
     margin-right: 0px;
@@ -74,7 +83,8 @@
 }
 
 .card-animation {
-    animation: fade-in 0.9s;}
+    animation: fade-in 0.9s;
+}
 
 @keyframes fade-in {
 
@@ -109,7 +119,7 @@
     margin-top: -5rem;
     width: 18rem;
     transition: transform 2s;
-   
+
 
 }
 
@@ -177,7 +187,6 @@
     border: 1px solid #d3caca59;
     padding: 0rem 0.5rem 0rem 0.5rem;
 }
-
 
 
 /* RESPONSIVE */
@@ -254,6 +263,13 @@
 
     }
 
+    .slide-h3 h3 {
+
+        margin-left: 2rem;
+        font-size: larger;
+
+    }
+
 
     .card-img-overlay {
         position: absolute;
@@ -289,6 +305,15 @@
         font-size: larger;
 
     }
+
+    
+    .slide-h3 h3 {
+
+        margin-left: 1rem;
+        font-size: larger;
+
+    }
+
 
 
     .slick-slider {
@@ -335,6 +360,15 @@
 
     }
 
+    
+    .slide-h3 h3 {
+
+        margin-left: 1rem;
+        font-size: larger;
+
+    }
+
+
 
     .slick-slider {
 
@@ -380,6 +414,17 @@
         font-weight: 700;
 
     }
+
+    
+    .slide-h3 h3 {
+
+        margin-left: 1.5rem;
+        font-size: larger;
+        color: #999;
+        font-weight: 700;
+
+    }
+
 
 
     .slick-slider {
