@@ -211,6 +211,18 @@
     font-weight: 700;
 }
 
+.mob-list li button{
+
+    color: grey !important;
+    text-decoration: none !important;
+    font-size: medium !important;
+    font-weight: 700 !important;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
 .mob-list a:hover {
 
     color: #fff;

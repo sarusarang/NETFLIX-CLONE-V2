@@ -297,22 +297,22 @@ function NetflixHome({ p, id }) {
 
                                         <ul className='mob-list'>
 
-                                            <li><a href="" onClick={() => { dispatch(home()) }}>Home</a></li>
-                                            <li><a href="" onClick={() => { dispatch(movies()) }}>Movies</a></li>
-                                            <li><a href="" onClick={() => { dispatch(tvshows()) }}>Tv Shows</a></li>
-                                            <li><a href="" onClick={() => { dispatch(child()) }}>Children & Family</a></li>
-                                            <li><a href="">Thirllers</a></li>
-                                            <li><a href="">International Movies and Tv</a></li>
-                                            <li><a href="">Dramas</a></li>
-                                            <li><a href="">Horror</a></li>
-                                            <li><a href="">Action</a></li>
-                                            <li><a href="">Stand-up comedy</a></li>
-                                            <li><a href="">Hollywood Movies</a></li>
-                                            <li><a href="">Bollywood</a></li>
-                                            <li><a href="">Made In India</a></li>
-                                            <li><a href="">English Films</a></li>
-                                            <li><a href="">Anime</a></li>
-                                            <li><a href="">Hindi Movies & TV</a></li>
+                                            <li><button href="" onClick={() => { dispatch(home()) }}>Home</button></li>
+                                            <li><button href="" onClick={() => { dispatch(movies()) }}>Movies</button></li>
+                                            <li><button href="" onClick={() => { dispatch(tvshows()) }}>Tv Shows</button></li>
+                                            <li><button href="" onClick={() => { dispatch(child()) }}>Children & Family</button></li>
+                                            <li><button href="">Thirllers</button></li>
+                                            <li><button href="">International Movies</button></li>
+                                            <li><button href="">Dramas</button></li>
+                                            <li><button href="">Horror</button></li>
+                                            <li><button href="">Action</button></li>
+                                            <li><button href="">Stand-up comedy</button></li>
+                                            <li><button href="">Hollywood Movies</button></li>
+                                            <li><button href="">Bollywood</button></li>
+                                            <li><button href="">Made In India</button></li>
+                                            <li><button href="">English Films</button></li>
+                                            <li><button href="">Anime</button></li>
+                                            <li><button href="">Hindi Movies & TV</button></li>
 
 
                                         </ul>
