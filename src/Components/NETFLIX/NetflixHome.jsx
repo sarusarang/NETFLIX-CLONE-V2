@@ -6,20 +6,27 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import NetflixFooter from './NetflixFooter'
 import BannerVideo from './BannerVideo';
 import { useDispatch } from 'react-redux';
-import { home, tvshows, movies, child } from '../../Store/Netflix';
+import { home, tvshows, movies, child, moviesearch, btnsearch } from '../../Store/Netflix';
 import HomeVideos from './HomeVideos';
 import { useSelector } from 'react-redux'
 import TvShow from './TvShow';
 import Movies from './Movies'
 import Animated from './Animated';
+import { searchmultidata } from '../../SERVICES/Movie';
+import { Toaster, toast } from 'sonner';
+import Search from './Search';
 
 
 
 function NetflixHome({ p, id }) {
 
 
+    const [searchdata, setsearchdata] = useState([])
+    const [seacrhloading, setsearchloading] = useState(false)
+    const [inputdata,setinputdata] = useState("")
+
     // TO HANDLE MULTIPLE SECTION SUCH AS MOVIE HOME..ECT WHEN A USERCLICKS
-    const { HOME, TVSHOWS, MOVIES, CHILDREN } = useSelector((state) => state.netflix)
+    const { HOME, TVSHOWS, MOVIES, CHILDREN, SEARCH, INPUT, SEARCHBTN } = useSelector((state) => state.netflix)
 
     // offfcanvas 
     const [show, setShow] = useState(false);
@@ -47,23 +54,44 @@ function NetflixHome({ p, id }) {
     }, []);
 
 
-    // to set search btn mount and unmount
-    const [input, setinput] = useState(false)
-    const [searchbtn, setsearchbtn] = useState(true)
 
-
-    // to handle search btn state
-    const handleinput = () => {
-
-        setinput(true)
-        setsearchbtn(false)
-
-    }
 
     // use dispatch
-
     const dispatch = useDispatch()
 
+
+    // Handle Search
+    const getsearchdata = async (value) => {
+
+        try {
+
+            dispatch(moviesearch())
+
+            setsearchloading(true)
+
+            setinputdata(value)
+
+            const res = await searchmultidata(value)
+
+            if (res.status >= 200 && res.status < 300) {
+
+                setsearchdata(res.data.results)
+                setsearchloading(false)
+
+            } else {
+
+                toast.error("OPS ERROR BAD REQUEST TRY AGAIN LATER")
+
+            }
+
+        }
+        catch (error) {
+
+            toast.error("SERVER IS NOT RESPONDING")
+
+        }
+
+    }
 
 
     return (
@@ -110,16 +138,16 @@ function NetflixHome({ p, id }) {
 
                                         {
 
-                                            searchbtn &&
-                                            <button onClick={handleinput} className='Search-btn'><i className="fa-solid fa-magnifying-glass" style={{ color: '#fff' }}></i></button>
+                                            SEARCHBTN &&
+                                            <button onClick={() => { dispatch(btnsearch()) }} className='Search-btn'><i className="fa-solid fa-magnifying-glass" style={{ color: '#fff' }}></i></button>
                                         }
 
                                         {
-                                            input &&
+                                            INPUT &&
                                             <div className='search-bar'>
 
                                                 <button className='Search-btn'><i className="fa-solid fa-magnifying-glass" style={{ color: '#fff' }}></i></button>
-                                                <input type="search" placeholder='Titles,People,genres' autoComplete='off' />
+                                                <input onChange={(e) => { getsearchdata(e.target.value) }} type="search" placeholder='Titles,People,genres' autoComplete='off' />
 
                                             </div>
                                         }
@@ -231,7 +259,7 @@ function NetflixHome({ p, id }) {
 
                                     <div className='d-flex justify-content-end '>
 
-                                        <input type="search" placeholder='Search' autoCapitalize='off' className='mob-search' />
+                                        <input onChange={(e) => { getsearchdata(e.target.value) }}  type="search" placeholder='Search' autoCapitalize='off' className='mob-search' />
 
                                     </div>
 
@@ -332,13 +360,40 @@ function NetflixHome({ p, id }) {
 
 
 
+                {
+                    SEARCH &&
 
-                <section className='video-container'>
+                    <section style={{width:'100%'}} >
 
-                    <BannerVideo />
+                        <Search seacrhloading={seacrhloading} searchdata={searchdata} inputdata = {inputdata} />
+
+                    </section>
 
 
-                </section>
+                }
+
+
+                {
+
+                    SEARCH?
+
+                        <section className='video-container' style={{display:'none'}}>
+
+                            <BannerVideo />
+
+
+                        </section>
+
+                        :
+
+                        <section className='video-container'>
+
+                            <BannerVideo />
+
+
+                        </section>
+                }
+
 
 
                 {
@@ -393,6 +448,8 @@ function NetflixHome({ p, id }) {
 
 
 
+
+
                 <section>
 
                     <NetflixFooter />
@@ -405,8 +462,7 @@ function NetflixHome({ p, id }) {
 
             </div>
 
-
-
+           
 
 
         </>

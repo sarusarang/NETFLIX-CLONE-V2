@@ -78,7 +78,12 @@ export const getanimatedseries = async () => {
 }
 
 
+// get search data 
+export const searchmultidata = async(data)=>{
 
+    return await TmdbApi(`${Base_Url}search/multi?query=${data}`)
+
+}
 
 
 
@@ -88,6 +93,7 @@ export const getmovievideos = async (id) => {
     return await TmdbApi(`${Base_Url}movie/${id}/videos`)
 
 }
+
 
 
 // GET VIDEOS OF SERIES

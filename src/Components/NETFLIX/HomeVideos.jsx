@@ -310,10 +310,6 @@ function HomeVideos({ p }) {
   }
 
 
-
-
-
-
   // For Getting videos of the movies and series
 
   const getvideoid = async (id, status, item) => {
@@ -412,10 +408,6 @@ function HomeVideos({ p }) {
   const next10 = () => {
     sliderRef10.current.slickNext();
   };
-
-
-
-
 
 
 
