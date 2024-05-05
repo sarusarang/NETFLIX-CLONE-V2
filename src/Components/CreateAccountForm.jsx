@@ -143,7 +143,7 @@ function CreateAccountForm() {
 
               <div className='form-input'>
 
-                <input type="text" name='name' onChange={(e) => { getuserdata(e) }} placeholder='Enter Your Name' />
+                <input type="text" name='name' autoComplete='off' onChange={(e) => { getuserdata(e) }} placeholder='Enter Your Name' />
                 {
                   name &&
 
@@ -157,7 +157,7 @@ function CreateAccountForm() {
 
               <div className='form-input'>
 
-                <input type="email" onChange={(e) => { getuserdata(e) }} name='email' placeholder='Email' />
+                <input type="email" autoComplete='off' onChange={(e) => { getuserdata(e) }} name='email' placeholder='Email' />
 
                 {
                   email &&
@@ -172,7 +172,7 @@ function CreateAccountForm() {
 
               <div className='form-input'>
 
-                <input type="password" onChange={(e) => { getuserdata(e) }} name='pass' placeholder='Add a Password' />
+                <input type="password" autoComplete='off' onChange={(e) => { getuserdata(e) }} name='pass' placeholder='Add a Password' />
 
                 {
                   pass &&

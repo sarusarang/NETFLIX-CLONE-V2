@@ -131,7 +131,7 @@ function Landing() {
 
                                     <form onSubmit={(e) => { handlesubmit(e) }}>
 
-                                        <input type="email" onChange={(e) => { getemail(e) }} name='email' className='p-3 me-2' placeholder='Email address' /><br className='break' />
+                                        <input type="email" autoComplete='off' onChange={(e) => { getemail(e) }} name='email' className='p-3 me-2' placeholder='Email address' /><br className='break' />
 
 
                                         <button onClick={check} className='p-1'>Get Started <ChevronRight size={'30'} /></button>
@@ -464,7 +464,7 @@ function Landing() {
 
                                         <div className='col-lg-6' style={{ padding: '0px' }}>
 
-                                            <input type="email" onChange={(e) => { getemail(e) }} name='email' className='p-3 me-2' placeholder='Email address' /><br className='break' />
+                                            <input type="email" autoComplete='off' onChange={(e) => { getemail(e) }} name='email' className='p-3 me-2' placeholder='Email address' /><br className='break' />
 
                                         </div>
 

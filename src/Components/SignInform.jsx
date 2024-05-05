@@ -156,7 +156,7 @@ function SignInform() {
 
                                         <div className='signin-input'>
 
-                                            <input onChange={(e) => { handleinput(e) }} name='email' type="email" placeholder='Email or Phone number' />
+                                            <input onChange={(e) => { handleinput(e) }} autoComplete='off' name='email' type="email" placeholder='Email or Phone number' />
 
                                             {
                                                 emailalert &&
@@ -171,7 +171,7 @@ function SignInform() {
 
                                         <div className='signin-input'>
 
-                                            <input type="password" onChange={(e) => { handleinput(e) }} name='pass' placeholder='Password' />
+                                            <input type="password" onChange={(e) => { handleinput(e) }} autoComplete='off' name='pass' placeholder='Password' />
 
                                             {
                                                 passalert &&
