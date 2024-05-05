@@ -39,7 +39,7 @@ function Profile() {
     })
 
 
-    // to get id of the user
+    // TO get id of the user
     const { id } = useParams()
 
     // TO GET USERDATA FROM SERVR WHEN COMPONENT IS MOUNTED
